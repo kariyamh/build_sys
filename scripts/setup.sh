@@ -6,6 +6,8 @@ init_dir=$(pwd)
 mkdir -p $(dirname $0)//..//build
 cd $(dirname $0)//..//build
 
+echo "executing from: $(pwd)"
+
 cmake ..
 make all
 
