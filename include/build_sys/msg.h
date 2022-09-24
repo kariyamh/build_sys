@@ -3,6 +3,7 @@
 
 #include <string>
 
+/// @brief Pure interface class
 class Msg {
 public:
     std::string virtual getType() = 0;
