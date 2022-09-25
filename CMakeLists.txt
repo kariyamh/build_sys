@@ -44,3 +44,12 @@ target_link_libraries(
     ShapeTest
     GTest::gtest_main
 )
+
+
+#### Documentation
+find_package(Doxygen)
+
+doxygen_add_docs(doc
+             DOXYGEN_INPUT "${CMAKE_CURRENT_SOURCE_DIR}/include"
+             )
+
