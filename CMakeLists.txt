@@ -45,6 +45,8 @@ target_link_libraries(
     GTest::gtest_main
 )
 
+add_test(NAME shape_test
+        COMMAND ShapeTest)
 
 #### Documentation
 find_package(Doxygen)
