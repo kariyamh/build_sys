@@ -1,4 +1,4 @@
-#include "build_sys/msg.h"
+#include "shape/msg.h"
 #include <string>
 
 std::string IntMsg::getType() {
