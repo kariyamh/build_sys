@@ -5,4 +5,8 @@ set(MY_EXECUTABLE_SOURCES
     )
 
 add_executable(main
-    ${MY_EXECUTABLE_SOURCES})
+    ${MY_EXECUTABLE_SOURCES}
+    )
+target_link_libraries(main 
+    shape_lib
+    )  
