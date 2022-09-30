@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "build_sys/shape.h"
+#include "shape/shape.h"
 
 // Demonstrate some basic assertions
 TEST(ShapeTest, BasicAssertions) {
