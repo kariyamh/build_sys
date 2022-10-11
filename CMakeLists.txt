@@ -6,6 +6,8 @@ project(build_sys)
 # library named shape_lib
 add_subdirectory(shape)
 
+add_subdirectory(framework)
+
 # sample_proj directory contains the executable
 add_subdirectory(sample_proj)
 
